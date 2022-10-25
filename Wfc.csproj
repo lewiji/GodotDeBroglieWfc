@@ -1,0 +1,44 @@
+<Project Sdk="Godot.NET.Sdk/3.3.0">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+      <LangVersion>10</LangVersion>
+      <Nullable>enable</Nullable>
+      <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+      <RootNamespace>SatiStream</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DeBroglie">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\DeBroglie.dll</HintPath>
+    </Reference>
+    <Reference Include="DeBroglie.Console">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\DeBroglie.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="DeBroglie.MagicaVoxel">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\DeBroglie.MagicaVoxel.dll</HintPath>
+    </Reference>
+    <Reference Include="DeBroglie.Tiled">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\DeBroglie.Tiled.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Core">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\SixLabors.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Fonts">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\SixLabors.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\SixLabors.ImageSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.ImageSharp.Drawing">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\SixLabors.ImageSharp.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="SixLabors.Shapes">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\SixLabors.Shapes.dll</HintPath>
+    </Reference>
+    <Reference Include="TiledLib">
+      <HintPath>..\DeBroglie\DeBroglie.Console\bin\Debug\netstandard2.1\publish\TiledLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
+  </ItemGroup>
+</Project>
